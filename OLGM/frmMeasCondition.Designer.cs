@@ -98,7 +98,7 @@
             this.c1Button6 = new C1.Win.C1Input.C1Button();
             this.c1InputPanel10 = new C1.Win.C1InputPanel.C1InputPanel();
             this.c1Label28 = new C1.Win.C1Input.C1Label();
-            this.c1TextBox3 = new C1.Win.C1Input.C1TextBox();
+            this.txtFlow = new C1.Win.C1Input.C1TextBox();
             this.c1Label29 = new C1.Win.C1Input.C1Label();
             this.c1TextBox4 = new C1.Win.C1Input.C1TextBox();
             this.c1Label30 = new C1.Win.C1Input.C1Label();
@@ -109,6 +109,19 @@
             this.c1Label32 = new C1.Win.C1Input.C1Label();
             this.c1InputPanel12 = new C1.Win.C1InputPanel.C1InputPanel();
             this.c1Button9 = new C1.Win.C1Input.C1Button();
+            this.c1TextBox5 = new C1.Win.C1Input.C1TextBox();
+            this.c1Label33 = new C1.Win.C1Input.C1Label();
+            this.c1Label34 = new C1.Win.C1Input.C1Label();
+            this.c1Label35 = new C1.Win.C1Input.C1Label();
+            this.c1TextBox6 = new C1.Win.C1Input.C1TextBox();
+            this.c1InputPanel13 = new C1.Win.C1InputPanel.C1InputPanel();
+            this.c1TextBox7 = new C1.Win.C1Input.C1TextBox();
+            this.c1Label36 = new C1.Win.C1Input.C1Label();
+            this.c1Label37 = new C1.Win.C1Input.C1Label();
+            this.c1Label38 = new C1.Win.C1Input.C1Label();
+            this.c1TextBox8 = new C1.Win.C1Input.C1TextBox();
+            this.c1InputPanel14 = new C1.Win.C1InputPanel.C1InputPanel();
+            this.c1Label39 = new C1.Win.C1Input.C1Label();
             ((System.ComponentModel.ISupportInitialize)(this.tabMeas)).BeginInit();
             this.tabMeas.SuspendLayout();
             this.tabGeneral.SuspendLayout();
@@ -201,7 +214,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.c1InputPanel10)).BeginInit();
             this.c1InputPanel10.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.c1Label28)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.c1TextBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtFlow)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.c1Label29)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.c1TextBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.c1Label30)).BeginInit();
@@ -212,6 +225,21 @@
             ((System.ComponentModel.ISupportInitialize)(this.c1Label32)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.c1InputPanel12)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.c1Button9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.c1TextBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.c1Label33)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.c1Label34)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.c1Label35)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.c1TextBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.c1InputPanel13)).BeginInit();
+            this.c1InputPanel13.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.c1TextBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.c1Label36)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.c1Label37)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.c1Label38)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.c1TextBox8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.c1InputPanel14)).BeginInit();
+            this.c1InputPanel14.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.c1Label39)).BeginInit();
             this.SuspendLayout();
             // 
             // tabMeas
@@ -534,7 +562,19 @@
             // 
             // tabFlowMeter
             // 
+            this.tabFlowMeter.Controls.Add(this.c1Label39);
+            this.tabFlowMeter.Controls.Add(this.c1TextBox4);
+            this.tabFlowMeter.Controls.Add(this.c1TextBox7);
+            this.tabFlowMeter.Controls.Add(this.c1Label29);
+            this.tabFlowMeter.Controls.Add(this.c1Label36);
+            this.tabFlowMeter.Controls.Add(this.c1TextBox8);
+            this.tabFlowMeter.Controls.Add(this.c1InputPanel14);
+            this.tabFlowMeter.Controls.Add(this.c1TextBox5);
+            this.tabFlowMeter.Controls.Add(this.c1Label33);
+            this.tabFlowMeter.Controls.Add(this.c1TextBox6);
+            this.tabFlowMeter.Controls.Add(this.c1InputPanel13);
             this.tabFlowMeter.Controls.Add(this.c1CheckBox1);
+            this.tabFlowMeter.Controls.Add(this.txtFlow);
             this.tabFlowMeter.Controls.Add(this.c1Button9);
             this.tabFlowMeter.Controls.Add(this.c1CheckBox2);
             this.tabFlowMeter.Controls.Add(this.c1Label27);
@@ -1066,9 +1106,9 @@
             this.c1Label25.AutoSize = true;
             this.c1Label25.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.c1Label25.Font = new System.Drawing.Font("メイリオ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.c1Label25.Location = new System.Drawing.Point(18, 21);
+            this.c1Label25.Location = new System.Drawing.Point(19, 21);
             this.c1Label25.Name = "c1Label25";
-            this.c1Label25.Size = new System.Drawing.Size(74, 20);
+            this.c1Label25.Size = new System.Drawing.Size(220, 20);
             this.c1Label25.TabIndex = 23;
             this.c1Label25.Tag = null;
             // 
@@ -1076,9 +1116,9 @@
             // 
             this.c1Label26.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.c1Label26.Font = new System.Drawing.Font("メイリオ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.c1Label26.Location = new System.Drawing.Point(18, 122);
+            this.c1Label26.Location = new System.Drawing.Point(19, 122);
             this.c1Label26.Name = "c1Label26";
-            this.c1Label26.Size = new System.Drawing.Size(253, 20);
+            this.c1Label26.Size = new System.Drawing.Size(309, 20);
             this.c1Label26.TabIndex = 26;
             this.c1Label26.Tag = null;
             // 
@@ -1135,13 +1175,10 @@
             this.c1InputPanel10.AutoSizeElement = C1.Framework.AutoSizeElement.Both;
             this.c1InputPanel10.BorderThickness = 1;
             this.c1InputPanel10.Controls.Add(this.c1Label28);
-            this.c1InputPanel10.Controls.Add(this.c1TextBox3);
-            this.c1InputPanel10.Controls.Add(this.c1Label29);
-            this.c1InputPanel10.Controls.Add(this.c1TextBox4);
             this.c1InputPanel10.Font = new System.Drawing.Font("メイリオ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.c1InputPanel10.Location = new System.Drawing.Point(13, 28);
+            this.c1InputPanel10.Location = new System.Drawing.Point(14, 28);
             this.c1InputPanel10.Name = "c1InputPanel10";
-            this.c1InputPanel10.Size = new System.Drawing.Size(461, 91);
+            this.c1InputPanel10.Size = new System.Drawing.Size(231, 91);
             this.c1InputPanel10.TabIndex = 19;
             this.c1InputPanel10.Text = "スペクトルファイル名";
             // 
@@ -1151,33 +1188,33 @@
             this.c1Label28.Font = new System.Drawing.Font("メイリオ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.c1Label28.Location = new System.Drawing.Point(5, 14);
             this.c1Label28.Name = "c1Label28";
-            this.c1Label28.Size = new System.Drawing.Size(305, 20);
+            this.c1Label28.Size = new System.Drawing.Size(93, 20);
             this.c1Label28.TabIndex = 0;
             this.c1Label28.Tag = null;
             // 
-            // c1TextBox3
+            // txtFlow
             // 
-            this.c1TextBox3.Font = new System.Drawing.Font("メイリオ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.c1TextBox3.Location = new System.Drawing.Point(313, 12);
-            this.c1TextBox3.Name = "c1TextBox3";
-            this.c1TextBox3.Size = new System.Drawing.Size(60, 25);
-            this.c1TextBox3.TabIndex = 1;
-            this.c1TextBox3.Tag = null;
+            this.txtFlow.Font = new System.Drawing.Font("メイリオ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.txtFlow.Location = new System.Drawing.Point(73, 65);
+            this.txtFlow.Name = "txtFlow";
+            this.txtFlow.Size = new System.Drawing.Size(60, 25);
+            this.txtFlow.TabIndex = 1;
+            this.txtFlow.Tag = null;
             // 
             // c1Label29
             // 
             this.c1Label29.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.c1Label29.Font = new System.Drawing.Font("メイリオ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.c1Label29.Location = new System.Drawing.Point(5, 37);
+            this.c1Label29.Location = new System.Drawing.Point(256, 90);
             this.c1Label29.Name = "c1Label29";
-            this.c1Label29.Size = new System.Drawing.Size(305, 20);
+            this.c1Label29.Size = new System.Drawing.Size(175, 20);
             this.c1Label29.TabIndex = 2;
             this.c1Label29.Tag = null;
             // 
             // c1TextBox4
             // 
             this.c1TextBox4.Font = new System.Drawing.Font("メイリオ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.c1TextBox4.Location = new System.Drawing.Point(313, 35);
+            this.c1TextBox4.Location = new System.Drawing.Point(564, 85);
             this.c1TextBox4.Name = "c1TextBox4";
             this.c1TextBox4.Size = new System.Drawing.Size(60, 25);
             this.c1TextBox4.TabIndex = 3;
@@ -1187,9 +1224,9 @@
             // 
             this.c1Label30.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.c1Label30.Font = new System.Drawing.Font("メイリオ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.c1Label30.Location = new System.Drawing.Point(18, 186);
+            this.c1Label30.Location = new System.Drawing.Point(19, 186);
             this.c1Label30.Name = "c1Label30";
-            this.c1Label30.Size = new System.Drawing.Size(253, 20);
+            this.c1Label30.Size = new System.Drawing.Size(287, 20);
             this.c1Label30.TabIndex = 27;
             this.c1Label30.Tag = null;
             // 
@@ -1245,9 +1282,9 @@
             this.c1Label32.AutoSize = true;
             this.c1Label32.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.c1Label32.Font = new System.Drawing.Font("メイリオ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.c1Label32.Location = new System.Drawing.Point(18, 5);
+            this.c1Label32.Location = new System.Drawing.Point(19, 5);
             this.c1Label32.Name = "c1Label32";
-            this.c1Label32.Size = new System.Drawing.Size(74, 20);
+            this.c1Label32.Size = new System.Drawing.Size(104, 20);
             this.c1Label32.TabIndex = 24;
             this.c1Label32.Tag = null;
             // 
@@ -1271,6 +1308,140 @@
             this.c1Button9.TabIndex = 35;
             this.c1Button9.Text = "初期化(D)";
             this.c1Button9.UseVisualStyleBackColor = true;
+            // 
+            // c1TextBox5
+            // 
+            this.c1TextBox5.Font = new System.Drawing.Font("メイリオ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.c1TextBox5.Location = new System.Drawing.Point(355, 39);
+            this.c1TextBox5.Name = "c1TextBox5";
+            this.c1TextBox5.Size = new System.Drawing.Size(60, 25);
+            this.c1TextBox5.TabIndex = 36;
+            this.c1TextBox5.Tag = null;
+            // 
+            // c1Label33
+            // 
+            this.c1Label33.AutoSize = true;
+            this.c1Label33.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.c1Label33.Font = new System.Drawing.Font("メイリオ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.c1Label33.Location = new System.Drawing.Point(255, 21);
+            this.c1Label33.Name = "c1Label33";
+            this.c1Label33.Size = new System.Drawing.Size(100, 20);
+            this.c1Label33.TabIndex = 39;
+            this.c1Label33.Tag = null;
+            // 
+            // c1Label34
+            // 
+            this.c1Label34.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.c1Label34.Font = new System.Drawing.Font("メイリオ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.c1Label34.Location = new System.Drawing.Point(5, 14);
+            this.c1Label34.Name = "c1Label34";
+            this.c1Label34.Size = new System.Drawing.Size(93, 20);
+            this.c1Label34.TabIndex = 0;
+            this.c1Label34.Tag = null;
+            // 
+            // c1Label35
+            // 
+            this.c1Label35.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.c1Label35.Font = new System.Drawing.Font("メイリオ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.c1Label35.Location = new System.Drawing.Point(5, 37);
+            this.c1Label35.Name = "c1Label35";
+            this.c1Label35.Size = new System.Drawing.Size(93, 20);
+            this.c1Label35.TabIndex = 2;
+            this.c1Label35.Tag = null;
+            // 
+            // c1TextBox6
+            // 
+            this.c1TextBox6.Font = new System.Drawing.Font("メイリオ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.c1TextBox6.Location = new System.Drawing.Point(355, 62);
+            this.c1TextBox6.Name = "c1TextBox6";
+            this.c1TextBox6.Size = new System.Drawing.Size(60, 25);
+            this.c1TextBox6.TabIndex = 37;
+            this.c1TextBox6.Tag = null;
+            // 
+            // c1InputPanel13
+            // 
+            this.c1InputPanel13.AutoSizeElement = C1.Framework.AutoSizeElement.Both;
+            this.c1InputPanel13.BorderThickness = 1;
+            this.c1InputPanel13.Controls.Add(this.c1Label34);
+            this.c1InputPanel13.Controls.Add(this.c1Label35);
+            this.c1InputPanel13.Font = new System.Drawing.Font("メイリオ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.c1InputPanel13.Location = new System.Drawing.Point(251, 28);
+            this.c1InputPanel13.Name = "c1InputPanel13";
+            this.c1InputPanel13.Size = new System.Drawing.Size(190, 91);
+            this.c1InputPanel13.TabIndex = 38;
+            this.c1InputPanel13.Text = "スペクトルファイル名";
+            // 
+            // c1TextBox7
+            // 
+            this.c1TextBox7.Font = new System.Drawing.Font("メイリオ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.c1TextBox7.Location = new System.Drawing.Point(564, 39);
+            this.c1TextBox7.Name = "c1TextBox7";
+            this.c1TextBox7.Size = new System.Drawing.Size(60, 25);
+            this.c1TextBox7.TabIndex = 40;
+            this.c1TextBox7.Tag = null;
+            // 
+            // c1Label36
+            // 
+            this.c1Label36.AutoSize = true;
+            this.c1Label36.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.c1Label36.Font = new System.Drawing.Font("メイリオ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.c1Label36.Location = new System.Drawing.Point(464, 21);
+            this.c1Label36.Name = "c1Label36";
+            this.c1Label36.Size = new System.Drawing.Size(220, 20);
+            this.c1Label36.TabIndex = 43;
+            this.c1Label36.Tag = null;
+            // 
+            // c1Label37
+            // 
+            this.c1Label37.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.c1Label37.Font = new System.Drawing.Font("メイリオ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.c1Label37.Location = new System.Drawing.Point(5, 14);
+            this.c1Label37.Name = "c1Label37";
+            this.c1Label37.Size = new System.Drawing.Size(93, 20);
+            this.c1Label37.TabIndex = 0;
+            this.c1Label37.Tag = null;
+            // 
+            // c1Label38
+            // 
+            this.c1Label38.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.c1Label38.Font = new System.Drawing.Font("メイリオ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.c1Label38.Location = new System.Drawing.Point(5, 37);
+            this.c1Label38.Name = "c1Label38";
+            this.c1Label38.Size = new System.Drawing.Size(93, 20);
+            this.c1Label38.TabIndex = 2;
+            this.c1Label38.Tag = null;
+            // 
+            // c1TextBox8
+            // 
+            this.c1TextBox8.Font = new System.Drawing.Font("メイリオ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.c1TextBox8.Location = new System.Drawing.Point(564, 62);
+            this.c1TextBox8.Name = "c1TextBox8";
+            this.c1TextBox8.Size = new System.Drawing.Size(60, 25);
+            this.c1TextBox8.TabIndex = 41;
+            this.c1TextBox8.Tag = null;
+            // 
+            // c1InputPanel14
+            // 
+            this.c1InputPanel14.AutoSizeElement = C1.Framework.AutoSizeElement.Both;
+            this.c1InputPanel14.BorderThickness = 1;
+            this.c1InputPanel14.Controls.Add(this.c1Label37);
+            this.c1InputPanel14.Controls.Add(this.c1Label38);
+            this.c1InputPanel14.Font = new System.Drawing.Font("メイリオ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.c1InputPanel14.Location = new System.Drawing.Point(460, 28);
+            this.c1InputPanel14.Name = "c1InputPanel14";
+            this.c1InputPanel14.Size = new System.Drawing.Size(180, 91);
+            this.c1InputPanel14.TabIndex = 42;
+            this.c1InputPanel14.Text = "スペクトルファイル名";
+            // 
+            // c1Label39
+            // 
+            this.c1Label39.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.c1Label39.Font = new System.Drawing.Font("メイリオ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.c1Label39.Location = new System.Drawing.Point(465, 90);
+            this.c1Label39.Name = "c1Label39";
+            this.c1Label39.Size = new System.Drawing.Size(93, 20);
+            this.c1Label39.TabIndex = 44;
+            this.c1Label39.Tag = null;
             // 
             // frmMeasCondition
             // 
@@ -1382,7 +1553,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.c1InputPanel10)).EndInit();
             this.c1InputPanel10.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.c1Label28)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.c1TextBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtFlow)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.c1Label29)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.c1TextBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.c1Label30)).EndInit();
@@ -1393,6 +1564,21 @@
             ((System.ComponentModel.ISupportInitialize)(this.c1Label32)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.c1InputPanel12)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.c1Button9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.c1TextBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.c1Label33)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.c1Label34)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.c1Label35)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.c1TextBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.c1InputPanel13)).EndInit();
+            this.c1InputPanel13.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.c1TextBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.c1Label36)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.c1Label37)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.c1Label38)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.c1TextBox8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.c1InputPanel14)).EndInit();
+            this.c1InputPanel14.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.c1Label39)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1484,12 +1670,25 @@
         private C1.Win.C1Input.C1Button c1Button6;
         private C1.Win.C1InputPanel.C1InputPanel c1InputPanel10;
         private C1.Win.C1Input.C1Label c1Label28;
-        private C1.Win.C1Input.C1TextBox c1TextBox3;
+        private C1.Win.C1Input.C1TextBox txtFlow;
         private C1.Win.C1Input.C1Label c1Label29;
         private C1.Win.C1Input.C1TextBox c1TextBox4;
         private C1.Win.C1InputPanel.C1InputPanel c1InputPanel11;
         private C1.Win.C1Input.C1Label c1Label32;
         private C1.Win.C1InputPanel.C1InputPanel c1InputPanel12;
         private C1.Win.C1Input.C1Button c1Button9;
+        private C1.Win.C1Input.C1TextBox c1TextBox7;
+        private C1.Win.C1Input.C1Label c1Label36;
+        private C1.Win.C1Input.C1TextBox c1TextBox8;
+        private C1.Win.C1InputPanel.C1InputPanel c1InputPanel14;
+        private C1.Win.C1Input.C1Label c1Label37;
+        private C1.Win.C1Input.C1Label c1Label38;
+        private C1.Win.C1Input.C1TextBox c1TextBox5;
+        private C1.Win.C1Input.C1Label c1Label33;
+        private C1.Win.C1Input.C1TextBox c1TextBox6;
+        private C1.Win.C1InputPanel.C1InputPanel c1InputPanel13;
+        private C1.Win.C1Input.C1Label c1Label34;
+        private C1.Win.C1Input.C1Label c1Label35;
+        private C1.Win.C1Input.C1Label c1Label39;
     }
 }
