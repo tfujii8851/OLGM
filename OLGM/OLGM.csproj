@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7327E93A-42E1-4B8E-BCB8-2B6732E4A61A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>OLGM</RootNamespace>
+    <AssemblyName>OLGM</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="C1.Win.4.5.2, Version=4.5.20211.492, Culture=neutral, PublicKeyToken=944ae1ea0e47ca04, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\ComponentOne\WinForms Edition\bin\v4.5.2\C1.Win.4.5.2.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1Command.4.5.2, Version=4.5.20211.492, Culture=neutral, PublicKeyToken=e808566f358766d8, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\ComponentOne\WinForms Edition\bin\v4.5.2\C1.Win.C1Command.4.5.2.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1FlexGrid.4.5.2, Version=4.5.20211.492, Culture=neutral, PublicKeyToken=79882d576c6336da, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\ComponentOne\WinForms Edition\bin\v4.5.2\C1.Win.C1FlexGrid.4.5.2.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1FlexGrid.ImportExport.4.5.2, Version=4.5.20211.492, Culture=neutral, PublicKeyToken=79882d576c6336da, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\ComponentOne\WinForms Edition\bin\v4.5.2\C1.Win.C1FlexGrid.ImportExport.4.5.2.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1Input.4.5.2, Version=4.5.20211.492, Culture=neutral, PublicKeyToken=7e7ff60f0c214f9a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\ComponentOne\WinForms Edition\bin\v4.5.2\C1.Win.C1Input.4.5.2.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1InputPanel.4.5.2, Version=4.5.20211.492, Culture=neutral, PublicKeyToken=79882d576c6336da, processorArchitecture=MSIL" />
+    <Reference Include="C1.Win.C1Ribbon.4.5.2, Version=4.5.20211.492, Culture=neutral, PublicKeyToken=79882d576c6336da, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\ComponentOne\WinForms Edition\bin\v4.5.2\C1.Win.C1Ribbon.4.5.2.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1SplitContainer.4.5.2, Version=4.5.20211.492, Culture=neutral, PublicKeyToken=79882d576c6336da, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\ComponentOne\WinForms Edition\bin\v4.5.2\C1.Win.C1SplitContainer.4.5.2.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.Input.MultiSelect.4.5.2, Version=4.5.20211.492, Culture=neutral, PublicKeyToken=79882d576c6336da, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\ComponentOne\WinForms Edition\bin\v4.5.2\C1.Win.Input.MultiSelect.4.5.2.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.TreeView.4.5.2, Version=4.5.20211.492, Culture=neutral, PublicKeyToken=79882d576c6336da, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\ComponentOne\WinForms Edition\bin\v4.5.2\C1.Win.TreeView.4.5.2.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="VBReport7.Document.4, Version=7.0.5271.3003, Culture=neutral, PublicKeyToken=9e5df3ffcd865b15" />
+    <Reference Include="VBReport7.View.4, Version=7.0.5271.3003, Culture=neutral, PublicKeyToken=67249b755be30f5e" />
+    <Reference Include="VBReport7.Viewer.4, Version=7.0.5271.3003, Culture=neutral, PublicKeyToken=f9b54b094f53e0d7, processorArchitecture=x86" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAbout.Designer.cs">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAnaCondition.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAnaCondition.Designer.cs">
+      <DependentUpon>frmAnaCondition.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAnaMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAnaMain.Designer.cs">
+      <DependentUpon>frmAnaMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDA.Designer.cs">
+      <DependentUpon>frmDA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDialogFolder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDialogFolder.Designer.cs">
+      <DependentUpon>frmDialogFolder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmECALPeak.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmECALPeak.Designer.cs">
+      <DependentUpon>frmECALPeak.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmFCALPeak.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFCALPeak.Designer.cs">
+      <DependentUpon>frmFCALPeak.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmFileList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFileList.Designer.cs">
+      <DependentUpon>frmFileList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmIndicateFlowrate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmIndicateFlowrate.Designer.cs">
+      <DependentUpon>frmIndicateFlowrate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMeasCarryOut.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMeasCarryOut.Designer.cs">
+      <DependentUpon>frmMeasCarryOut.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMeasCondition.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMeasCondition.Designer.cs">
+      <DependentUpon>frmMeasCondition.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMeasMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMeasMain.Designer.cs">
+      <DependentUpon>frmMeasMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmOffLine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOffLine.Designer.cs">
+      <DependentUpon>frmOffLine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmOnLine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOnLine.Designer.cs">
+      <DependentUpon>frmOnLine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmOnLineTrend.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOnLineTrend.Designer.cs">
+      <DependentUpon>frmOnLineTrend.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmShowErrors.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmShowErrors.Designer.cs">
+      <DependentUpon>frmShowErrors.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTimeSchedule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTimeSchedule.Designer.cs">
+      <DependentUpon>frmTimeSchedule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmValve.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmValve.Designer.cs">
+      <DependentUpon>frmValve.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmAbout.resx">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAnaCondition.resx">
+      <DependentUpon>frmAnaCondition.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAnaMain.resx">
+      <DependentUpon>frmAnaMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmIndicateFlowrate.resx">
+      <DependentUpon>frmIndicateFlowrate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMeasCondition.resx">
+      <DependentUpon>frmMeasCondition.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMeasMain.resx">
+      <DependentUpon>frmMeasMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOffLine.resx">
+      <DependentUpon>frmOffLine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
