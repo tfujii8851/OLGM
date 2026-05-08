@@ -1387,7 +1387,7 @@
             this.c1Label32.Font = new System.Drawing.Font("メイリオ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.c1Label32.Location = new System.Drawing.Point(19, 5);
             this.c1Label32.Name = "c1Label32";
-            this.c1Label32.Size = new System.Drawing.Size(104, 20);
+            this.c1Label32.Size = new System.Drawing.Size(74, 20);
             this.c1Label32.TabIndex = 24;
             this.c1Label32.Tag = null;
             // 
